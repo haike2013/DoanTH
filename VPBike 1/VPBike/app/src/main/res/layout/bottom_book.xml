@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="ĐIẾM ĐẾN"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginHorizontal="8dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_to"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:drawablePadding="10dp"
+            android:hint="Bạn đi đến đâu?"
+            android:inputType="textPostalAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginHorizontal="8dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:drawablePadding="10dp"
+            android:hint="Nhập số điện thoại"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <android.widget.Button
+        android:id="@+id/btn_confirm"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="XÁC NHẬN"
+        android:layout_marginHorizontal="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

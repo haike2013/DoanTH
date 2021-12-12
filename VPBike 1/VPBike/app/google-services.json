@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "406006994599",
+    "firebase_url": "https://hangrongday-default-rtdb.firebaseio.com",
+    "project_id": "hangrongday",
+    "storage_bucket": "hangrongday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406006994599:android:9510a506900711604dad82",
+        "android_client_info": {
+          "package_name": "com.subi.vpbike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406006994599-btbrhjm6gn07pshs0ksuv1tdjib1a3uc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzpSsylGmBWP_QsfrxKSk_BWk3h5Ik7A4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406006994599-btbrhjm6gn07pshs0ksuv1tdjib1a3uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

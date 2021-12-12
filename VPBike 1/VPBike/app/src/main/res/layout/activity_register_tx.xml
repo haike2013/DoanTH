@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgroundabc"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="THÔNG TIN TÀI XẾ"
+            android:textAlignment="center"
+            android:textColor="@color/main1"
+            android:textSize="30sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            android:id="@+id/tilTk"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtRegister"
+            android:layout_marginBottom="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_ho_ten"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:drawableStart="@drawable/user"
+                android:drawablePadding="10dp"
+                android:hint="Nhập họ tên"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            android:id="@+id/tilMk"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_numphone"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                android:drawablePadding="10dp"
+                android:hint="Nhập số điện thoại"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMk2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:drawablePadding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_ten_xe"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/pass"
+                android:drawableStart="@drawable/ic_baseline_directions_bike_24"
+                android:drawablePadding="10dp"
+                android:hint="Nhập tên xe"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            android:drawablePadding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_bs_xe"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/pass"
+                android:drawableStart="@drawable/ic_baseline_table_chart_24"
+                android:drawablePadding="10dp"
+                android:hint="Nhập biển số xe"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass2"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:id="@+id/btnDangKyx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:padding="10dp"
+                android:text="ĐĂNG KÝ"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+

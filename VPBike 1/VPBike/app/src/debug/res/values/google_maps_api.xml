@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=94:CF:06:8D:D6:98:90:8B:81:7B:10:1E:90:FE:14:13:85:66:8B:EB%3Bcom.subi.vpbike
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.subi.vpbike
+
+    SHA-1 certificate fingerprint:
+    94:CF:06:8D:D6:98:90:8B:81:7B:10:1E:90:FE:14:13:85:66:8B:EB
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCROfhLQlrbdSGC3a70iWY49Xnwe4aTaOs</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#325340"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/checked" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Giao dịch thành công"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginVertical="16dp"
+        android:id="@+id/tv_money"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="16dp">
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tv_home"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:background="#B0006D"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:padding="16dp"
+            android:text="Màn hình chính"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+    </LinearLayout>
+</LinearLayout>
